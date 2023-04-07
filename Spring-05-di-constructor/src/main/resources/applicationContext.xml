@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="bookDao" class="com.yangzhuo.dao.impl.BookDaoImpl"-->
+<!--          init-method="init" destroy-method="destory"></bean>-->
+<!--</beans>-->
+
+
+<!--
+ 1 标准书写，耦合度较高 构造方法中的形参名发生改变，配置文件也要发生改变
+
+  <bean id="bookDao" class="com.yangzhuo.dao.impl.BookDaoImpl">
+         <constructor-arg name="connectionNum" value="8"/>
+         <constructor-arg name="databaseName" value="mysql"/>
+  </bean>
+  <bean id="userDao" class="com.yangzhuo.dao.impl.UserDaoImpl"/>
+  <bean id="bookService" class="com.yangzhuo.service.impl.BookServiceImpl">
+      <constructor-arg name="bookDao"  ref="bookDao"/>
+      <constructor-arg name="userDao"  ref="userDao"/>
+  </bean>
+  -->
+
+
+
+
+    <!--
+    2 解决了形参名耦合的问题
+
+    <bean id="bookDao" class="com.yangzhuo.dao.impl.BookDaoImpl">
+        <constructor-arg type="int" value="8"/>
+        <constructor-arg type="java.lang.String" value="mysql"/>
+    </bean>
+    <bean id="userDao" class="com.yangzhuo.dao.impl.UserDaoImpl"/>
+    <bean id="bookService" class="com.yangzhuo.service.impl.BookServiceImpl">
+        <constructor-arg name="bookDao"  ref="bookDao"/>
+        <constructor-arg name="userDao"  ref="userDao"/>
+    </bean>
+        -->
+
+    <!--
+    3 解决了形参类型重复问题,根据使用位置解决参数匹配
+    -->
+    <bean id="bookDao" class="com.yangzhuo.dao.impl.BookDaoImpl">
+        <constructor-arg index="1" value="8"/>
+        <constructor-arg index="0" value="mysql"/>
+    </bean>
+    <bean id="userDao" class="com.yangzhuo.dao.impl.UserDaoImpl"/>
+    <bean id="bookService" class="com.yangzhuo.service.impl.BookServiceImpl">
+        <constructor-arg name="bookDao"  ref="bookDao"/>
+        <constructor-arg name="userDao"  ref="userDao"/>
+    </bean>
+
+
+</beans>

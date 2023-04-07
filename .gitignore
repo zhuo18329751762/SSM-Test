@@ -1,3 +1,10 @@
 # Project exclude paths
 /Spring-01/target/
-/Spring-02/target/
+/Spring-02/target/### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen

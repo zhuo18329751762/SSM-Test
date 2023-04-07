@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/SSM-Test.iml" filepath="$PROJECT_DIR$/SSM-Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-01/Spring-01.iml" filepath="$PROJECT_DIR$/Spring-01/Spring-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-02/Spring-02.iml" filepath="$PROJECT_DIR$/Spring-02/Spring-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-04/Spring-04.iml" filepath="$PROJECT_DIR$/Spring-04/Spring-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-05-di-constructor/Spring-05-di-constructor.iml" filepath="$PROJECT_DIR$/Spring-05-di-constructor/Spring-05-di-constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-template/Spring-template.iml" filepath="$PROJECT_DIR$/Spring-template/Spring-template.iml" />
     </modules>
   </component>
 </project>
