@@ -7,9 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-04" />
+        <module name="Spring-10-annotation-bean-manager" />
+        <module name="Spring-09-annotation-bean" />
+        <module name="Spring-13-spring-mybatis" />
         <module name="Spring-01" />
         <module name="Spring-02" />
-        <module name="Spring-template" />
+        <module name="Spring-08-container" />
+        <module name="Spring-12-annotion-third-bean-manager" />
+        <module name="Spring-11-annotation-di" />
+        <module name="Spring-07-datasource" />
+        <module name="Spring-06-di-colliection" />
         <module name="Spring-05-di-constructor" />
       </profile>
     </annotationProcessing>
@@ -18,6 +25,14 @@
       <module name="Spring-02" target="1.8" />
       <module name="Spring-04" target="1.8" />
       <module name="Spring-05-di-constructor" target="1.8" />
+      <module name="Spring-06-di-colliection" target="1.8" />
+      <module name="Spring-07-datasource" target="1.8" />
+      <module name="Spring-08-container" target="1.8" />
+      <module name="Spring-09-annotation-bean" target="1.8" />
+      <module name="Spring-10-annotation-bean-manager" target="1.8" />
+      <module name="Spring-11-annotation-di" target="1.8" />
+      <module name="Spring-12-annotion-third-bean-manager" target="1.8" />
+      <module name="Spring-13-spring-mybatis" target="1.8" />
       <module name="Spring-template" target="1.8" />
     </bytecodeTargetLevel>
   </component>

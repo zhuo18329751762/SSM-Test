@@ -7,8 +7,15 @@
         <option value="$PROJECT_DIR$/Spring-02/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-03/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-04/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-template/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-05-di-constructor/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-di-colliection/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-07-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-container/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-annotation-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-annotation-bean-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-annotation-di/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-12-annotion-third-bean-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-13-spring-mybatis/pom.xml" />
       </list>
     </option>
   </component>

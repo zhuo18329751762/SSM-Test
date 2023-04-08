@@ -7,7 +7,14 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-02/Spring-02.iml" filepath="$PROJECT_DIR$/Spring-02/Spring-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-04/Spring-04.iml" filepath="$PROJECT_DIR$/Spring-04/Spring-04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-05-di-constructor/Spring-05-di-constructor.iml" filepath="$PROJECT_DIR$/Spring-05-di-constructor/Spring-05-di-constructor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring-template/Spring-template.iml" filepath="$PROJECT_DIR$/Spring-template/Spring-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-06-di-colliection/Spring-06-di-colliection.iml" filepath="$PROJECT_DIR$/Spring-06-di-colliection/Spring-06-di-colliection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-07-datasource/Spring-07-datasource.iml" filepath="$PROJECT_DIR$/Spring-07-datasource/Spring-07-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-container/Spring-08-container.iml" filepath="$PROJECT_DIR$/Spring-08-container/Spring-08-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-09-annotation-bean/Spring-09-annotation-bean.iml" filepath="$PROJECT_DIR$/Spring-09-annotation-bean/Spring-09-annotation-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-annotation-bean-manager/Spring-10-annotation-bean-manager.iml" filepath="$PROJECT_DIR$/Spring-10-annotation-bean-manager/Spring-10-annotation-bean-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-annotation-di/Spring-11-annotation-di.iml" filepath="$PROJECT_DIR$/Spring-11-annotation-di/Spring-11-annotation-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-12-annotion-third-bean-manager/Spring-12-annotion-third-bean-manager.iml" filepath="$PROJECT_DIR$/Spring-12-annotion-third-bean-manager/Spring-12-annotion-third-bean-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-13-spring-mybatis/Spring-13-spring-mybatis.iml" filepath="$PROJECT_DIR$/Spring-13-spring-mybatis/Spring-13-spring-mybatis.iml" />
     </modules>
   </component>
 </project>

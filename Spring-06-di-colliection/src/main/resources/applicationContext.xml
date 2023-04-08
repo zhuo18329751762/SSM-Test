@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="bookDao" class="com.yangzhuo.dao.impl.BookDaoImpl">
+    <property name="array">
+        <array>
+            <value>100</value>
+            <value>200</value>
+            <value>300</value>
+        </array>
+    </property>
+    <property name="list">
+        <list>
+            <value>400</value>
+            <value>500</value>
+            <value>600</value>
+        </list>
+    </property>
+    <property name="set">
+        <set>
+            <value>迪迦</value>
+            <value>赛亚</value>
+            <value>迪迦</value>
+        </set>
+    </property>
+    <property name="map">
+        <map>
+            <entry key="张飞" value="貂蝉"/>
+            <entry key="武大郎" value="潘金莲"/>
+            <entry key="曹操" value="小乔"/>
+        </map>
+    </property>
+    <property name="properties">
+        <props>
+            <prop key="country">中国</prop>
+            <prop key="province">陕西</prop>
+            <prop key="city">西安</prop>
+        </props>
+    </property>
+</bean>
+
+</beans>
