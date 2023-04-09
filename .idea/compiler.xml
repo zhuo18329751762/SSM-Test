@@ -12,6 +12,8 @@
         <module name="Spring-13-spring-mybatis" />
         <module name="Spring-01" />
         <module name="Spring-02" />
+        <module name="Spring-14-aop-quickstart" />
+        <module name="Spring-15-spring-Junit" />
         <module name="Spring-08-container" />
         <module name="Spring-12-annotion-third-bean-manager" />
         <module name="Spring-11-annotation-di" />
@@ -33,6 +35,9 @@
       <module name="Spring-11-annotation-di" target="1.8" />
       <module name="Spring-12-annotion-third-bean-manager" target="1.8" />
       <module name="Spring-13-spring-mybatis" target="1.8" />
+      <module name="Spring-14-aop-quickstart" target="1.8" />
+      <module name="Spring-14-spring-junit" target="1.8" />
+      <module name="Spring-15-spring-Junit" target="1.8" />
       <module name="Spring-template" target="1.8" />
     </bytecodeTargetLevel>
   </component>

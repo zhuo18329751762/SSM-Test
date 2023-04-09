@@ -15,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-11-annotation-di/Spring-11-annotation-di.iml" filepath="$PROJECT_DIR$/Spring-11-annotation-di/Spring-11-annotation-di.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-12-annotion-third-bean-manager/Spring-12-annotion-third-bean-manager.iml" filepath="$PROJECT_DIR$/Spring-12-annotion-third-bean-manager/Spring-12-annotion-third-bean-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-13-spring-mybatis/Spring-13-spring-mybatis.iml" filepath="$PROJECT_DIR$/Spring-13-spring-mybatis/Spring-13-spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-14-aop-quickstart/Spring-14-aop-quickstart.iml" filepath="$PROJECT_DIR$/Spring-14-aop-quickstart/Spring-14-aop-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-15-spring-Junit/Spring-15-spring-Junit.iml" filepath="$PROJECT_DIR$/Spring-15-spring-Junit/Spring-15-spring-Junit.iml" />
     </modules>
   </component>
 </project>
