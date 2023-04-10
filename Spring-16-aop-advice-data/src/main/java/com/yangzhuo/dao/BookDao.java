@@ -1,7 +1,5 @@
 package com.yangzhuo.dao;
 
 public interface BookDao {
-    void save();
-    void update();
-    int select();
+    public String findName(int id,String passWord);
 }

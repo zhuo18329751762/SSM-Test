@@ -1,6 +1,7 @@
 package com.yangzhuo.service;
 
 import com.yangzhuo.config.SpringConfig;
+import com.yangzhuo.domain.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,10 @@ public class UserServiceTest {
 
     @Test
     public void testFindById(){
-        System.out.println(userService.findById(2));
+        userService.findById(2);
+    }
+    @Test
+    public void testFindAll(){
+        userService.findAll();
     }
 }

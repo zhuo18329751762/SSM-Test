@@ -19,6 +19,7 @@
         <module name="Spring-11-annotation-di" />
         <module name="Spring-07-datasource" />
         <module name="Spring-06-di-colliection" />
+        <module name="Spring-16-aop-advice-data" />
         <module name="Spring-05-di-constructor" />
       </profile>
     </annotationProcessing>
@@ -38,6 +39,8 @@
       <module name="Spring-14-aop-quickstart" target="1.8" />
       <module name="Spring-14-spring-junit" target="1.8" />
       <module name="Spring-15-spring-Junit" target="1.8" />
+      <module name="Spring-16-aop-advice-data" target="1.8" />
+      <module name="Spring-16-case-interface-run-speed" target="1.8" />
       <module name="Spring-template" target="1.8" />
     </bytecodeTargetLevel>
   </component>

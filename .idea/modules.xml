@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-13-spring-mybatis/Spring-13-spring-mybatis.iml" filepath="$PROJECT_DIR$/Spring-13-spring-mybatis/Spring-13-spring-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-14-aop-quickstart/Spring-14-aop-quickstart.iml" filepath="$PROJECT_DIR$/Spring-14-aop-quickstart/Spring-14-aop-quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-15-spring-Junit/Spring-15-spring-Junit.iml" filepath="$PROJECT_DIR$/Spring-15-spring-Junit/Spring-15-spring-Junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-16-aop-advice-data/Spring-16-aop-advice-data.iml" filepath="$PROJECT_DIR$/Spring-16-aop-advice-data/Spring-16-aop-advice-data.iml" />
     </modules>
   </component>
 </project>

@@ -20,12 +20,8 @@
         <option value="$PROJECT_DIR$/Spring-14-Spring-junit/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-15-spring-Junit/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-14-aop-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-16-aop-advice-data/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/Spring-14-Spring-junit/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
